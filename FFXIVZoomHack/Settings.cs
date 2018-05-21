@@ -19,7 +19,7 @@ namespace FFXIVZoomHack
             DesiredZoom = 20;
             DesiredFov = 0.78f;
 
-            OffsetUpdateLocation = @"https://raw.githubusercontent.com/jayotterbein/FFXIV-Zoom-Hack/master/Offsets.xml";
+            OffsetUpdateLocation = @"https://raw.githubusercontent.com/MYuuuuuu/FFXIV-Zoom-Hack/master/Offsets.xml";
             LastUpdate = "unupdated";
         }
 
