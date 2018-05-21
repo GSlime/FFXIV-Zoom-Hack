@@ -43,6 +43,7 @@
             this._updateOffsetsTextbox = new System.Windows.Forms.TextBox();
             this._updateOffsetsButton = new System.Windows.Forms.Button();
             this._updateLocationDefault = new System.Windows.Forms.Button();
+            this.xmlFileOpenButton = new System.Windows.Forms.Button();
             this._zoomSettingsBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this._fovUpDown)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this._zoomUpDown)).BeginInit();
@@ -229,7 +230,7 @@
             this._updateOffsetsTextbox.Location = new System.Drawing.Point(17, 15);
             this._updateOffsetsTextbox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this._updateOffsetsTextbox.Name = "_updateOffsetsTextbox";
-            this._updateOffsetsTextbox.Size = new System.Drawing.Size(407, 25);
+            this._updateOffsetsTextbox.Size = new System.Drawing.Size(355, 25);
             this._updateOffsetsTextbox.TabIndex = 3;
             // 
             // _updateOffsetsButton
@@ -254,11 +255,22 @@
             this._updateLocationDefault.UseVisualStyleBackColor = true;
             this._updateLocationDefault.Click += new System.EventHandler(this._updateLocationDefault_Click);
             // 
+            // xmlFileOpenButton
+            // 
+            this.xmlFileOpenButton.Location = new System.Drawing.Point(379, 15);
+            this.xmlFileOpenButton.Name = "xmlFileOpenButton";
+            this.xmlFileOpenButton.Size = new System.Drawing.Size(47, 25);
+            this.xmlFileOpenButton.TabIndex = 11;
+            this.xmlFileOpenButton.Text = "...";
+            this.xmlFileOpenButton.UseVisualStyleBackColor = true;
+            this.xmlFileOpenButton.Click += new System.EventHandler(this.xmlFileOpenButton_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(663, 303);
+            this.Controls.Add(this.xmlFileOpenButton);
             this.Controls.Add(this._updateLocationDefault);
             this.Controls.Add(this._updateOffsetsButton);
             this.Controls.Add(this._updateOffsetsTextbox);
@@ -298,6 +310,7 @@
         private System.Windows.Forms.TextBox _updateOffsetsTextbox;
         private System.Windows.Forms.Button _updateOffsetsButton;
         private System.Windows.Forms.Button _updateLocationDefault;
+        private System.Windows.Forms.Button xmlFileOpenButton;
     }
 }
 

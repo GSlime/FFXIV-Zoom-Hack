@@ -215,5 +215,19 @@ namespace FFXIVZoomHack
         {
             _updateOffsetsTextbox.Text = @"https://raw.githubusercontent.com/jayotterbein/FFXIV-Zoom-Hack/master/Offsets.xml";
         }
+
+        private void xmlFileOpenButton_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog XmlFile = new OpenFileDialog();
+            XmlFile.InitialDirectory = Application.StartupPath;
+            XmlFile.Filter = "Offset Files (*.xml)|*.xml";
+            XmlFile.FilterIndex = 1;
+            XmlFile.AddExtension = true;
+            XmlFile.RestoreDirectory = true;
+            if (XmlFile.ShowDialog() == DialogResult.OK)
+            {
+                _updateOffsetsTextbox.Text = XmlFile.FileName;
+            }
+        }
     }
 }
