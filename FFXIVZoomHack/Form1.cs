@@ -213,7 +213,7 @@ namespace FFXIVZoomHack
 
         private void _updateLocationDefault_Click(object sender, EventArgs e)
         {
-            _updateOffsetsTextbox.Text = @"https://raw.githubusercontent.com/jayotterbein/FFXIV-Zoom-Hack/master/Offsets.xml";
+            _updateOffsetsTextbox.Text = @"https://raw.githubusercontent.com/MYuuuuuu/FFXIV-Zoom-Hack/master/Offsets.xml";
         }
 
         private void xmlFileOpenButton_Click(object sender, EventArgs e)
