@@ -1,4 +1,5 @@
 ######################  Translated  ######################
+
 # FFXIV-Zoom-Hack
 允许调整游戏摄像机距离超过游戏内允许的最大距离。
 
@@ -36,8 +37,10 @@ CE 软件在此处下载: http://www.cheatengine.org/downloads.php
   3. 复制新窗口中"Address"框里的内容,内容为 DX9: ffxiv.exe+offset, DX11: ffxiv_dx11.exe+offset
   4. ffxiv_dx11.exe+offset中的offset地址即为所寻找的地址
 
-你已经找到了偏移地址，可以着手修改Offset.xml文件, 偏移地址为mxl文件里的<DX11>或<DX9>标签内的<StructureAddress>值# 
- ######################  RAW  ######################
+你已经找到了偏移地址，可以着手修改Offset.xml文件, 偏移地址为mxl文件里的<DX11>或<DX9>标签内的<StructureAddress>值
+ 
+######################  RAW  ######################
+ 
 # FFXIV-Zoom-Hack
 Allow adjustment of camera zoom and field of vision beyond what the game normally allows.
  
