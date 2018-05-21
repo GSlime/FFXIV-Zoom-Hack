@@ -3,7 +3,7 @@
 # FFXIV-Zoom-Hack
 允许调整游戏摄像机距离超过游戏内允许的最大距离。
 
-国服仅在DX11上可正常允许。
+国服仅在DX11上可正常工作。
 
 你可以使用源码或点击该地址获取最新的软件版本：https://github.com/MYuuuuuu/FFXIV-Zoom-Hack/releases
 
